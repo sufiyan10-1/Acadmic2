@@ -1,6 +1,6 @@
 import Signup from "./Signup";
 import Login from './Login';
-import ResultInput from "./resultInput";
+import ResultInput from "./ResultInput";
 import ResultTmp1 from './ResultTmp1';
 import ResultTmp2 from "./ResultTmp2";
 export {
