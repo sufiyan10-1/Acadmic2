@@ -14,9 +14,6 @@ function UniversityDataInput() {
      
   let createUniversity = await  object.createUniversity({...data,userID });
     if(createUniversity) navigate('/CourseDataInput');
-  await object.uploadLogo(document.getElementById('university_logo').files[0]);  
-  await object.uploadSignatureOfDirector(document.getElementById('signatureOfDirector').files[0]); 
-
  }
  
   return (
